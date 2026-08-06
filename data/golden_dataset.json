@@ -1,0 +1,16 @@
+[
+  {
+    "question": "What is the security deposit amount under this agreement?",
+    "expected_answer": "The security deposit amount is $1000.",
+    "expected_context": "The tenant agrees to pay a security deposit of $1000 upon signature of the lease.",
+    "expected_document": "lease.pdf",
+    "expected_clause": "3.2"
+  },
+  {
+    "question": "How long must the recipient keep the confidential information secret?",
+    "expected_answer": "The recipient must keep the information confidential for five years.",
+    "expected_context": "The receiving party shall keep all proprietary info confidential for a period of five (5) years from disclosure.",
+    "expected_document": "nda_agreement.pdf",
+    "expected_clause": "2.1"
+  }
+]

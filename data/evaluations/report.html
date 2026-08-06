@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Platform Evaluation Report</title>
+    <style>
+        body { font-family: 'Inter', Arial, sans-serif; background: #f8fafc; color: #1e293b; padding: 2rem; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); padding: 2rem; }
+        h1 { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-top: 1.5rem; }
+        .card { background: #f1f5f9; border-radius: 8px; padding: 1rem; border-left: 4px solid #2a5298; }
+        .card-label { font-size: 0.8rem; text-transform: uppercase; color: #64748b; font-weight: bold; }
+        .card-value { font-size: 1.5rem; font-weight: bold; margin-top: 0.25rem; }
+        table { width: 100%; border-collapse: collapse; margin-top: 2rem; font-size: 0.9rem; }
+        th, td { padding: 0.75rem; border: 1px solid #e2e8f0; text-align: left; }
+        th { background: #f8fafc; font-weight: 600; }
+        .pass { color: green; font-weight: bold; }
+        .fail { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Legal Contract Platform Evaluation Report</h1>
+        <p>Generated on: 2026-08-06T15:13:39Z</p>
+        
+        <h2>Overall Averages</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="card-label">Faithfulness</div>
+                <div class="card-value">0.500</div>
+            </div>
+            <div class="card">
+                <div class="card-label">Answer Relevancy</div>
+                <div class="card-value">0.500</div>
+            </div>
+            <div class="card">
+                <div class="card-label">Context Recall</div>
+                <div class="card-value">0.500</div>
+            </div>
+            <div class="card">
+                <div class="card-label">Total Latency</div>
+                <div class="card-value">10.882s</div>
+            </div>
+        </div>
+
+        <h2>Detailed Results</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Question</th>
+                    <th>Faithfulness</th>
+                    <th>Relevancy</th>
+                    <th>Precision</th>
+                    <th>Recall</th>
+                    <th>Total Latency</th>
+                    <th>Citations</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+                <tr>
+                    <td>What is the security deposit amount under this agreement?</td>
+                    <td class="fail">0.500</td>
+                    <td class="fail">0.500</td>
+                    <td>1.000</td>
+                    <td>0.500</td>
+                    <td class="fail">11.249s</td>
+                    <td>0</td>
+                </tr>
+        
+                <tr>
+                    <td>How long must the recipient keep the confidential information secret?</td>
+                    <td class="fail">0.500</td>
+                    <td class="fail">0.500</td>
+                    <td>1.000</td>
+                    <td>0.500</td>
+                    <td class="fail">10.515s</td>
+                    <td>0</td>
+                </tr>
+        
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+    

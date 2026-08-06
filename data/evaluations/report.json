@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-08-06T15:13:39Z",
+  "thresholds": {
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.8,
+    "latency": 2.0
+  },
+  "overall_averages": {
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.5,
+    "context_precision": 1.0,
+    "context_recall": 0.5,
+    "retrieval_latency": 3.6894599199295044,
+    "rerank_latency": 6.925941586494446,
+    "generation_latency": 5.163932919502258,
+    "total_latency": 10.882018327713013,
+    "average_confidence": 1.0
+  },
+  "statistics": {
+    "total_samples": 2,
+    "completed_samples": 2,
+    "failures": 0,
+    "total_citations": 0,
+    "total_missing_citations": 0
+  },
+  "individual_results": [
+    {
+      "question": "What is the security deposit amount under this agreement?",
+      "expected_answer": "The security deposit amount is $1000.",
+      "answer": "I couldn't find enough information in the uploaded documents.",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.5,
+      "context_precision": 1.0,
+      "context_recall": 0.5,
+      "retrieval_latency": 7.315768003463745,
+      "rerank_latency": 13.727971076965332,
+      "generation_latency": 0.0,
+      "total_latency": 11.249106884002686,
+      "citations_count": 0,
+      "missing_citations_count": 0,
+      "confidence_score": 1.0
+    },
+    {
+      "question": "How long must the recipient keep the confidential information secret?",
+      "expected_answer": "The recipient must keep the information confidential for five years.",
+      "answer": "I couldn't find enough information in the uploaded documents.",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.5,
+      "context_precision": 1.0,
+      "context_recall": 0.5,
+      "retrieval_latency": 0.06315183639526367,
+      "rerank_latency": 0.12391209602355957,
+      "generation_latency": 10.327865839004517,
+      "total_latency": 10.51492977142334,
+      "citations_count": 0,
+      "missing_citations_count": 0,
+      "confidence_score": 1.0
+    }
+  ]
+}
