@@ -1,4 +1,4 @@
-# Legal Contract Intelligence Platform
+# Lexigraph-AI
 
 ### Subtitle
 **Production-grade Hybrid RAG System for Enterprise Legal Document Intelligence**
