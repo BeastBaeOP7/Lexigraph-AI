@@ -115,3 +115,7 @@ docker compose up --build
 
 ## GitHub Actions CI
 The workflow in `.github/workflows/ci.yml` runs all unit tests on pull requests and pushes to `main`.
+
+## 🎬 Demo
+
+![Legal Contract Intelligence Demo](assets/demo.gif)
